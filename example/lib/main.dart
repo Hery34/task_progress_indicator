@@ -32,7 +32,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late TaskProgressIndicator _progress = TaskProgressIndicator(completed: 0, total: 5);
+  late TaskProgressIndicator _progress =
+      TaskProgressIndicator(completed: 0, total: 5);
   bool _isLoading = false;
 
   @override

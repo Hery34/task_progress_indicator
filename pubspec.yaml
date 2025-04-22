@@ -1,6 +1,6 @@
 name: task_progress_indicator
 description: "A customizable Flutter widget that visually tracks and displays the progress of task completion, updating dynamically as tasks are accomplished."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Hery34/task_progress_indicator
 
 environment:

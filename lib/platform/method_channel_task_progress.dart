@@ -21,10 +21,11 @@ class MethodChannelTaskProgress implements TaskProgressPlatformInterface {
 
   @override
   Future<Map<String, int>> loadProgress() async {
-    final Map<dynamic, dynamic>? result = await _channel.invokeMethod<Map<dynamic, dynamic>>(
+    final Map<dynamic, dynamic>? result =
+        await _channel.invokeMethod<Map<dynamic, dynamic>>(
       'loadProgress',
     );
-    
+
     return {
       'completed': result?['completed'] as int? ?? 0,
       'total': result?['total'] as int? ?? 0,
@@ -35,4 +36,4 @@ class MethodChannelTaskProgress implements TaskProgressPlatformInterface {
   Future<void> clearProgress() async {
     await _channel.invokeMethod<void>('clearProgress');
   }
-} 
+}

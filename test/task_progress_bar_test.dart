@@ -95,7 +95,8 @@ void main() {
       expect(progressIndicator.minHeight, 8.0);
     });
 
-    testWidgets('should apply custom border radius', (WidgetTester tester) async {
+    testWidgets('should apply custom border radius',
+        (WidgetTester tester) async {
       final progress = TaskProgressIndicator(
         completed: 3,
         total: 5,
@@ -145,4 +146,4 @@ void main() {
       expect(progressIndicator.backgroundColor, Colors.yellow);
     });
   });
-} 
+}

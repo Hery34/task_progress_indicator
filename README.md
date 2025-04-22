@@ -11,6 +11,10 @@ A Flutter package that provides a customizable progress indicator for tracking t
 - 🔄 Progress state management
 - 💾 Automatic data persistence
 
+## Screenshot
+
+![pubspec.yaml](assets/task_indicator_example_screenshot.jpg)
+
 ## Installation
 
 Add the package to your `pubspec.yaml`:
